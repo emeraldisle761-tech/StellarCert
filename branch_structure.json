@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-92-audit-csv-export-is-silently-truncated-to-500",
+    "fix/issue-93-health-endpoints-leak-raw-error-objects-to",
+    "fix/issue-94-auditlog-is-indexed-on-createdat-but-all",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-92-audit-csv-export-is-silently-truncated-to-500": "main",
+    "fix/issue-93-health-endpoints-leak-raw-error-objects-to": "main",
+    "fix/issue-94-auditlog-is-indexed-on-createdat-but-all": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-92-audit-csv-export-is-silently-truncated-to-500",
+    "fix/issue-93-health-endpoints-leak-raw-error-objects-to",
+    "fix/issue-94-auditlog-is-indexed-on-createdat-but-all",
+    "origin"
+  ]
+}
